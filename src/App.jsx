@@ -14,8 +14,6 @@ function App() {
     <App className="app">
       <BrowserRouter>
         <Nav active={active} setActive={setActive} />
-
-        {/* <Main /> */}
         <Routes>
           <Route path="/" element={<Welcome />}></Route>
           <Route path="/transactions" element={<Transactions />}></Route>
